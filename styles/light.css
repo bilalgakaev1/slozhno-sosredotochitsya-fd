@@ -12,6 +12,16 @@
   --block-title-color: #353430;
 } 
 
+@media (prefers-color-scheme: light) {
+  :root {
+  --bg-image: url('../images/cover-image-light.png');
+  --accent-color: #ff8dcb;
+  --main-title-color: #FFC2E6;
+  --main-text-color: #353430;
+  --block-title-color: #353430;    
+  }
+}
+
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
@@ -41,3 +51,4 @@
 .theme-light .header__theme-menu-button:hover {
   border: 1px solid var(--block-title-color);
 }
+

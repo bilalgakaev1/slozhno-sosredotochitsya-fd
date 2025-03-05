@@ -492,3 +492,13 @@ header::before {
   }
 }
 
+@media (prefers-color-scheme: light) {
+  .theme-auto {
+    background: white;
+    color: black;
+  }
+}
+
+.header__theme-menu-button_active {
+  pointer-events: none;
+}
