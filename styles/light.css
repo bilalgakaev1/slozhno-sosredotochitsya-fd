@@ -20,35 +20,14 @@
   --main-text-color: #353430;
   --block-title-color: #353430;    
   }
+
+  .decortext {
+    display: none;
+  }
 }
 
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-}
-
-.theme-light .header__theme-menu-button_type_light {
-  border: 1px solid var(--block-title-color);
-}
-
-.theme-light header::before {
-  
-}
-
-.theme-light .links:hover {
-  text-decoration: underline;
-}
-
-.theme-light .links:focus {
-  outline: 1px solid var(--accent-color);
-} 
-
-.theme-light .header__theme-menu-button:focus-visible {
-  outline: none;
-  border-bottom: 1px solid var(--block-title-color);
-}
-
-.theme-light .header__theme-menu-button:hover {
-  border: 1px solid var(--block-title-color);
+.theme-light .decortext {
+  display: none;
 }
 
