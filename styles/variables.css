@@ -9,4 +9,6 @@
   --main-text-color: #F1B2CE;
   --block-title-color: #FF0070;
   --focus-color: #FF0070;
+  --hover-color: rgba(255, 0, 112, 0.4);
+  --rec: block;
 }

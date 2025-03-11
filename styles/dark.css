@@ -12,6 +12,7 @@
   --block-title-color: #FF0070;
   --hover-color: rgba(255, 0, 112, 0.4);
   --focus-color: #FF0070;
+  --rec: block;
 }
 
 .theme-dark .header__theme-menu-button_type_dark {

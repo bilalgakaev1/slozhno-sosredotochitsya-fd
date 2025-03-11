@@ -12,6 +12,7 @@
   --block-title-color: #353430;
   --hover-color: rgba(50, 49, 45, 0.4);
   --focus-color: #353430;
+  --rec: none;
 } 
 
 @media (prefers-color-scheme: light) {
@@ -20,22 +21,25 @@
   --accent-color: #ff8dcb;
   --main-title-color: #FFC2E6;
   --main-text-color: #353430;
-  --block-title-color: #353430;    
+  --block-title-color: #353430;
+  --hover-color: rgba(50, 49, 45, 0.4); 
+  --focus-color: #353430;   
+  --rec: none;
   }
 
-  .decortext {
+  /*.decortext {
     display: none;
-  }
+  }*/
 }
 
 
 .theme-light .header__theme-menu-button_type_light {
   border: 1px solid var(--block-title-color);
 }
-
+/*
 .theme-light .decortext {
   display: none;
-}
+}*/
 
 .theme-light .page {
   background-color: #fff1f7;
